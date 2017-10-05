@@ -66,7 +66,6 @@ const genres = {
 const getMovie = (session) => {
   // Send typing message
   session.sendTyping();
-
   const params = {};
 
   if (session.dialogData.genre) {
